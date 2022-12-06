@@ -1,0 +1,50 @@
+.heading {
+    height: 600px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 1600px;
+    background-image: url('../img/background-woman_desktop@2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
+screen and (min-resolution: 192dpi) and (max-width: 768px),
+screen and (min-resolution: 2dppx) and (max-width: 768px) {
+    .heading {
+        background-image: url("../img/background-woman_mobile@2.jpg");
+        height: 300px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1200px) {
+    .heading {
+        background-image: url("../img/background-woman_tablet@2.jpg");
+        height: 450px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .heading {
+        background-image: url("../img/background-woman_desktop@2.jpg");
+    }
+}
+
+.frankl-frase {
+    color: var(--text-color);
+    padding-top: 155px;
+    text-shadow: 0 10px 10px var(--text-shadow);
+    font-size: 30px;
+}
+
+h4 {
+    color: var(--text-color);
+    text-shadow: 0 5px 5px var(--text-shadow);
+}

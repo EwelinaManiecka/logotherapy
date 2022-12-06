@@ -1,0 +1,11 @@
+footer {
+    color: var(--text-color);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer>p {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+}
