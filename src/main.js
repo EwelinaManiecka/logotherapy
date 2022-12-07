@@ -26,9 +26,7 @@ currentDay.textContent = day.toLocaleString("default", { weekday: "long" });
 //     card.classList.toggle("is-flipped")
 // })
 
-sendMeBtn.onclick = function () {
-   modal.style.display = "block";
-};
+sendMeBtn.addEventListener("click", () => (modal.style.display = "flex"));
 
 closeModalBtn.onclick = function () {
    modal.style.display = "none";
