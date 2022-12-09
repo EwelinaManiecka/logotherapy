@@ -372,8 +372,9 @@ input:focus {
 
 textarea {
   background-color: var(--label-modal-color);
+  padding: 4px;
   border-radius: 5px;
-  width: 300px;
+  width: 296px;
   border: 1px solid var(--collateral-color);
   outline: var(--indirect-1-color);
   border: 2px solid var(--indirect-1-color);
